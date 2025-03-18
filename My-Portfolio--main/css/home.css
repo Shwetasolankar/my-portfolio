@@ -64,16 +64,17 @@
   color: #000;
 }
 .shwetaportfolio-circle {
-  width: 200px; /* Set fixed width */
-  height: 200px; /* Set fixed height */
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image fills the circle properly */
+  width: 250px; /* Bigger size */
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
-  margin-left: auto; /* Moves image to the right */
-  margin-right: 0; /* Ensures it stays on the right */
-  transition: transform 0.3s ease-in-out; /* Smooth animation */
-  }
-.shwetaportfolio-circle:active {
-  transform: scale(1.1); /* Slightly enlarges image on click */
+  margin-left: auto; /* Moves image to right */
+  margin-right: 0;
+  transition: transform 0.3s ease-in-out; /* Smooth click effect */
+  border: none; /* Removes border */
 }
 
+.shwetaportfolio-circle:active {
+  transform: scale(1.1) translateX(5px); /* Slightly enlarges and moves on click */
+}
