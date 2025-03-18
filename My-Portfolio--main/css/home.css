@@ -63,3 +63,12 @@
   background-color: #fff;
   color: #000;
 }
+.shwetaportfolio-circle {
+  width: 150px; /* Set fixed width */
+  height: 150px; /* Set fixed height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fills the circle properly */
+  display: block;
+  margin: auto; /* Centers the image */
+  border: 3px solid white; /* Optional: Adds a border around the circle */
+}
