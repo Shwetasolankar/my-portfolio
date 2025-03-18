@@ -64,19 +64,39 @@
   color: #000;
 }
 .shwetaportfolio-circle {
-  width: 220px; /* अधिक मोठी */
-  height: 220px; /* height आणि width समान ठेव */
+  width: 250px; /* Image मोठी केली */
+  height: 250px; /* Circle perfect होईल */
   border-radius: 50%; /* पूर्णपणे circular */
   object-fit: cover; /* Image distort होणार नाही */
   display: block;
-  margin-left: auto;
-  margin-right: 5%; /* Right shift */
+  margin-left: auto; /* उजवीकडे हलवण्यासाठी */
+  margin-right: 10%; /* Right shift */
   transition: transform 0.5s ease-in-out;
 }
 
 /* Hover Effect */
 .shwetaportfolio-circle:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
+}
+
+/* Click Effect */
+.shwetaportfolio-circle:active {
+  transform: scale(1.2) rotate(5deg);
+}
+.shwetaportfolio-circle {
+  width: 250px; /* Image मोठी केली */
+  height: 250px; /* Circle perfect होईल */
+  border-radius: 50%; /* पूर्णपणे circular */
+  object-fit: cover; /* Image distort होणार नाही */
+  display: block;
+  margin-left: auto; /* उजवीकडे हलवण्यासाठी */
+  margin-right: 10%; /* Right shift */
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Hover Effect */
+.shwetaportfolio-circle:hover {
+  transform: scale(1.1);
 }
 
 /* Click Effect */
