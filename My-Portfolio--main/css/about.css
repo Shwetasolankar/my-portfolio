@@ -3,16 +3,6 @@
   background-color: #fff;
 }
 
-.shwetaportfolio-circle {
-  width: 40%;
-  max-width: 50%;  /* Ensures the image does not exceed 50% of the parent */
-  height: auto;  /* Maintains the aspect ratio */
-  border-radius: 50%;  /* Makes the image circular */
-  display: block;
-  object-fit: cover; /* Ensures the image fills the circular shape properly */
-}
-
-
 .text {
   flex: 0 0 50%;
   max-width: 50%;
