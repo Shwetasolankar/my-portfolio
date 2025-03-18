@@ -64,22 +64,22 @@
   color: #000;
 }
 .shwetaportfolio-circle {
-  width: 220px; /* आणखी थोडं मोठं */
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 220px; /* अधिक मोठी */
+  height: 220px; /* height आणि width समान ठेव */
+  border-radius: 50%; /* पूर्णपणे circular */
+  object-fit: cover; /* Image distort होणार नाही */
   display: block;
   margin-left: auto;
-  margin-right: 10%; /* थोडा gap ठेवला */
+  margin-right: 5%; /* Right shift */
   transition: transform 0.5s ease-in-out;
 }
 
 /* Hover Effect */
 .shwetaportfolio-circle:hover {
-  transform: scale(1.15); /* जरा जास्त enlarge */
+  transform: scale(1.15);
 }
 
 /* Click Effect */
 .shwetaportfolio-circle:active {
-  transform: scale(1.2) rotate(8deg);
+  transform: scale(1.2) rotate(5deg);
 }
