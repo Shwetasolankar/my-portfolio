@@ -90,7 +90,7 @@
   object-fit: cover; /* Image distort होणार नाही */
   display: block;
   margin-left: auto; /* उजवीकडे हलवण्यासाठी */
-  margin-right: 10%; /* Right shift */
+  margin-right: 40%; /* Right shift */
   transition: transform 0.5s ease-in-out;
 }
 
