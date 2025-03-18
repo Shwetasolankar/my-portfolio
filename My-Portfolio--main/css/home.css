@@ -64,12 +64,12 @@
   color: #000;
 }
 .shwetaportfolio-circle {
-  width: 400px; /* Image size वाढवले */
-  height: 400px;
+  width: 350px; /* Image size वाढवले */
+  height: 350px;
   border-radius: 50%; /* Circle shape */
   object-fit: cover;
   display: block;
-  margin-left: 85; /* Image right ला move होईल */
+  margin-left: 95; /* Image right ला move होईल */
   margin-right: 0; /* Adjust करता येईल */
   transition: transform 0.5s ease-in-out; /* Smooth animation */
 }
