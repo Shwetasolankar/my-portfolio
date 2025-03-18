@@ -69,6 +69,7 @@
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensures the image fills the circle properly */
   display: block;
-  margin: auto; /* Centers the image */
+  margin-left: auto; /* Moves image to the right */
+  margin-right: 0; /* Ensures it stays on the right */
   border: 3px solid white; /* Optional: Adds a border around the circle */
 }
